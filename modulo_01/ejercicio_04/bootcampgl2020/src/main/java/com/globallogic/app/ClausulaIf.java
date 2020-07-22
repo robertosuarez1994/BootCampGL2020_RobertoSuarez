@@ -17,7 +17,7 @@ public class ClausulaIf {
 		
 	}
 	
-	public static void isGreaterThanTen() {
+	private static void isGreaterThanTen() {
 		int numOne = 3;
 		int numTwo = 10;
 		int result = numOne + numTwo;
@@ -29,7 +29,7 @@ public class ClausulaIf {
 		}
 	}
 	
-	public static void isUpperCase(char letter) {
+	private static void isUpperCase(char letter) {
 		boolean isUpperCase = Character.isUpperCase(letter);
 		if(isUpperCase) {
 			System.out.println("Es una letra mayuscula");
