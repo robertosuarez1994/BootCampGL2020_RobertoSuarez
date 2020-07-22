@@ -30,6 +30,11 @@ public class Main {
 		miGato.setPatas(4);
 		System.out.println("Mi gato se llama "+miGato.getNombre()+" y tiene " +miGato.getPatas()+" patas");
 		
+		
+		//***************** Ejercicio 5.4 ************
+		Berlina berlina = new Berlina();
+		berlina.avanzar(); //metodo implementado en la clase padre
+		berlina.retroceder(); //metodo sobre escrito en la clase hijo
 	}
 
 }
