@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: serviceProducts
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: usuario
+Implementation-Vendor-Id: com.globallogic
+Build-Jdk: 1.8.0_252
+Implementation-URL: http://projects.spring.io/spring-boot/serviceProdu
+ cts/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
