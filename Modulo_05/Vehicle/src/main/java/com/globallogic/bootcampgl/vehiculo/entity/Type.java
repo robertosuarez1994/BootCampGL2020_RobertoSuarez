@@ -35,8 +35,5 @@ public class Type {
 	@Column(name = "doors")
 	String doors;
 	
-	//@OneToMany(cascade=CascadeType.ALL)
-	//private Set<Vehicle> vehicles;
-	
 	public Type(){}
 }

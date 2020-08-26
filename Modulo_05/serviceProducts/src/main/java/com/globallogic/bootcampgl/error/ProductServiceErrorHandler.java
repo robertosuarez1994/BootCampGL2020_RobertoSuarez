@@ -17,7 +17,7 @@ public class ProductServiceErrorHandler {
 	public ResponseEntity<Object> handleHttpMessageNotReadableException(final HttpMessageNotReadableException e) {
 		ErrorDTO responseError = new ErrorDTO();
 		responseError.setMessage("ERRROOOORRR revisa el body papa");
-		responseError.setStatusCode(400);
+		responseError.setStatusCode(HttpStatus.BAD_REQUEST.value());
 		responseError.setUri("/products");
 		return new ResponseEntity<>(responseError,HttpStatus.BAD_REQUEST);
 	}
@@ -26,7 +26,7 @@ public class ProductServiceErrorHandler {
 	public ResponseEntity<Object>handleMethodArgumentNotValidException(final MethodArgumentNotValidException e){
 		ErrorDTO responseError = new ErrorDTO();
 		responseError.setMessage("Capo hay cosas vacias");
-		responseError.setStatusCode(400);
+		responseError.setStatusCode(HttpStatus.BAD_REQUEST.value());
 		responseError.setUri("/products");
 		return new ResponseEntity<>(responseError,HttpStatus.BAD_REQUEST);
 	}
