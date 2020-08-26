@@ -1,0 +1,6 @@
+projectKey=com.globallogic.bootcamp:spring.coverage-example
+serverUrl=http://54.232.39.137:9000
+serverVersion=8.3.1.34397
+dashboardUrl=http://54.232.39.137:9000/dashboard?id=com.globallogic.bootcamp%3Aspring.coverage-example
+ceTaskId=AXQrd82Kg3tADY1Cw8hB
+ceTaskUrl=http://54.232.39.137:9000/api/ce/task?id=AXQrd82Kg3tADY1Cw8hB
