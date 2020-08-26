@@ -1,5 +1,7 @@
 package com.globallogic.bootcampgl.controller;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -31,7 +33,7 @@ public class ProductServiceController {
 	}
 	
 	@PostMapping (value = "/products")
-	public ResponseEntity<Object> createProducts(@RequestBody ProductDTO product){
+	public ResponseEntity<Object> createProducts(@Valid @RequestBody ProductDTO product){
 		productService.createProduct(product);
 		return new ResponseEntity<>("creadooo",HttpStatus.CREATED);
 	}
